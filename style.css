@@ -14,12 +14,6 @@ nav{
     height: 125px;
 }
 
-
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  }
-
 .banner{
     margin: 40px 50px;
     display: flex;
@@ -38,18 +32,6 @@ nav{
     color: #00FFFF;
     font-size: 70px;
     font-weight: bold;
-}
-
-.banner-txt{
-    margin-top: 40px;
-    margin-bottom: 30px;
-    font-size: 20px;
-}
-
-.banner-btn-container{
-    display: flex;
-    align-items: center;
-    gap: 20px
 }
 
 .banner-btn{
@@ -75,12 +57,6 @@ nav{
     color: #00FFFF;
     font-size: 30px;
     font-weight: bold;
-}
-
-.tech-btn-container{
-    display: flex;
-    justify-content: center;
-    gap: 10px
 }
 
 .skill-btn-container{
