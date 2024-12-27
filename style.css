@@ -8,7 +8,10 @@ body{
 nav{
     margin: 0 50px;
 }
-
+.cmn-clr{
+    color: #00FFFF;
+    font-size: 20px;
+}
 .logo-img{
     width: 125px;
     height: 125px;
@@ -41,7 +44,7 @@ nav{
 
 .portfolio-card{
     margin: 30px auto;
-    width: 70%;
+    width: 75%;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -81,7 +84,7 @@ nav{
     font-size: 48px;
 }
 .contact-form{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 form{
     box-shadow: 4px 4px 8px gray;
@@ -136,6 +139,9 @@ footer{
         margin: 10px;
         flex-wrap: wrap;
     }
+    .ed-title{
+        margin-top: 40px;
+    }
     form{
         width: 80%;
     }
@@ -164,6 +170,7 @@ footer{
     .banner-left{
         width: 100%
     }
+   
     form{
         width: 90%;
     }
