@@ -21,6 +21,7 @@ nav{
     margin: 40px 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px
 }
 .banner-left{
@@ -126,6 +127,16 @@ footer{
 
 
 @media screen and (max-width: 768px){
+    .banner{
+        margin: 40px 10px;
+        flex-direction: column;
+      
+    }
+    .banner-left{
+        width: 100%
+    }
+  
+   
     .portfolio-card{
         flex-direction: column;
         width: 100%;
@@ -166,17 +177,11 @@ footer{
         width: 75px;
         height: 75px;
     }
-    .banner{
-        margin: 40px 10px;
-        flex-direction: column;
-    }
+  
     .banner-title{
         font-size: 50px;
     }
-    .banner-left{
-        width: 100%
-    }
-   
+  
     form{
         width: 90%;
     }
